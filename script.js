@@ -115,3 +115,19 @@ chechSeason(); */
 
 // ? Math.max en büyük argümanını döndürür. Üç argüman alan ve Math.max metodunu kullanmadan maksimumlarını döndüren findMax adlı bir fonksiyon yazın.
 
+/* const findMax=(a,b,c)=> {
+  if(a>b && a>c){
+    console.log("En büyük sayı a'dır");
+    return
+  } else if(a>b && a<c){
+    console.log("en büyük sayı c'dir");
+    return
+  } else if(b>a && b>c){
+    console.log("en büyük sayı b'dir");
+    return
+  } else if(b>a && b<c){
+    console.log("en büyük sayı c'dir");
+    return
+  } 
+}
+findMax(15,1,20); */
