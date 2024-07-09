@@ -38,3 +38,80 @@ console.log(prizmaHacmi(10,10,10)); */
 }
 console.log(mukemmelSayi(6));
  */
+
+//? Bir dairenin alanı şu şekilde hesaplanır: alan = π xrxr . areaOfCircle'ı hesaplayan bir fonksiyon yazın
+
+const daireAlan = (r) => Math.PI * (r * r);
+console.log(daireAlan(5));
+
+// ? Bir dairenin çevresi şu şekilde hesaplanır: circumference = 2πr . circumOfCircle'ı hesaplayan bir fonksiyon yazın
+
+const daireCevre = (r) => {
+  return 2 * Math.PI * r;
+};
+console.log(daireCevre(3));
+
+// ? Bir maddenin yoğunluğu şu şekilde hesaplanır: yoğunluk = kütle/hacim . Yoğunluğu hesaplayan bir fonksiyon yazın
+
+const maddeYogunluk = (kutle, hacim) => kutle * hacim;
+console.log("yoğunluk:", maddeYogunluk(10, 20));
+
+// ? Hız, hareket eden bir nesnenin kat ettiği toplam mesafenin, toplam harcanan zamana bölünmesiyle hesaplanır. Hareket eden bir nesnenin hızını hesaplayan bir fonksiyon yazın, hız .
+
+/* const speed = () => {
+  let mesafe = +prompt("lütfen kaç ettiğiniz kilometreyi yazınız.");
+  let zaman = +prompt(
+    "lütfen saat olarak ne kadar süre yol aldığınızı yazınız:"
+  );
+  return (mesafe / zaman);
+};
+console.log(`hızını saatte`,speed(),"km/h'dir"); */
+
+// ? Bir maddenin ağırlığı şu şekilde hesaplanır: ağırlık = kütle x yer çekimi . Ağırlığı hesaplayan bir fonksiyon yazınız .
+
+/* const agirlik = (kutle) => (kutle * 9.81).toFixed(2); //to fixed ifadesi string'e dönüştürür.
+console.log("ağırlık:", agirlik(10)); */
+
+// ? oC cinsinden sıcaklık, şu formül kullanılarak oF'ye dönüştürülebilir: oF = (oC x 9/5) + 32. oC'yi oF'ye convertCelsiusToFahrenheit olarak dönüştüren bir fonksiyon yazın .
+
+/* const sicaklikC = (oC) => (oC * 9) / 5 + 32;
+console.log("oF:", sicaklikC(8)); */
+
+// ? Vücut kitle indeksi (VKİ) şu şekilde hesaplanır: VKİ = kg cinsinden ağırlık / (boy x boy) m2 cinsinden . VKİ'yi hesaplayan bir fonksiyon yazın . VKİ, 20 yaş ve üzeri yetişkinlerde farklı kilo gruplarını genel olarak tanımlamak için kullanılır . Aşağıda verilen bilgilere göre bir kişinin zayıf, normal, kilolu veya obez olup olmadığını kontrol edin.
+
+/* const vki = (kg, boy) => {
+  let sonuc = kg / (boy * boy);
+  if (sonuc <= 18) {
+    console.log("zayıfsınız");
+  } else if (sonuc <= 22) {
+    console.log("normal");
+  } else if (sonuc <= 30) {
+    console.log("kilolusunuz");
+  } else {
+    console.log("obez");
+  }
+  return sonuc;
+};
+console.log("Vücut Kitle İndeksiniz:", vki(72, 1.85)); */
+
+// ? checkSeason adında bir fonksiyon yazın , bir ay parametresi alın ve mevsimi döndürün: Sonbahar, Kış, İlkbahar veya Yaz.
+
+/* const chechSeason = () => {
+  let aylar = prompt("Lütfen bir ay yazınız.");
+  if (aylar === "mart" || aylar === "nisan" || aylar === "mayıs") {
+    console.log("ilkbahar");
+  } else if (aylar === "haziran" || aylar === "temmuz" || aylar === "ağustos") {
+    console.log("yaz");
+  } else if (aylar === "eylül" || aylar === "ekim" || aylar === "kasım") {
+    console.log("sonbahar");
+  } else if (aylar === "aralık" || aylar === "ocak" || aylar === "şubat") {
+    console.log("kış");
+  } else {
+    console.log("yanlış değer girdiniz");
+  }
+};
+chechSeason(); */
+
+
+// ? Math.max en büyük argümanını döndürür. Üç argüman alan ve Math.max metodunu kullanmadan maksimumlarını döndüren findMax adlı bir fonksiyon yazın.
+
