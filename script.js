@@ -112,7 +112,6 @@ console.log("Vücut Kitle İndeksiniz:", vki(72, 1.85)); */
 };
 chechSeason(); */
 
-
 // ? Math.max en büyük argümanını döndürür. Üç argüman alan ve Math.max metodunu kullanmadan maksimumlarını döndüren findMax adlı bir fonksiyon yazın.
 
 /* const findMax=(a,b,c)=> {
@@ -131,3 +130,31 @@ chechSeason(); */
   } 
 }
 findMax(15,1,20); */
+
+// ? BİNARY
+
+/* binary(10); */
+
+/* const binary = (num) => {
+  let toplam = num / 2
+  while (true) {
+    if (num / 2 == 1) {
+      toplam += 1;
+    } else if (num / 2 == 0) {
+      toplam += 0;
+    }
+  }
+}; */
+
+stringText = function (a) {
+  text = "";
+  for (i = 0; i <= a.length(); i++) {
+    if (i == text.toUpperCase()) {
+      text += text[i].toLowerCase();
+    } else if (i == text.toLowerCase()) {
+      text += text[i].toUpperCase();
+    }
+  }
+  return text;
+};
+console.log(stringText("hello world"));
